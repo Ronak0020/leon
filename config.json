@@ -1,0 +1,32 @@
+{
+  "token": "NO-Token-To-Show",
+  "client_id": "637611014300368896",
+  "youtube_api_key": "AIzaSyBmJU3L-CnuIZImSJSBosDyvy_3nblsW9U",
+  "prefix": ".",
+  "game": "Ron the King!",
+
+
+  "admins": {
+    "625877119989186570": "Ronak0020"
+  },
+
+  "welcome": {
+      "enabled": true,
+      "message": ":tada: Welcome ***{user}*** to ***{server}*** :tada:",
+      "add_role": {
+        "enabled": false,
+        "role": "default"
+      }
+  },
+
+  "bot_channel": {
+    "enabled": false,
+    "channel": "bot",
+    "music": {
+      "channel": "music",
+      "maxQueueSize": 20
+    }
+  }
+
+
+}
