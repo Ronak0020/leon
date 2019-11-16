@@ -33,10 +33,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ronak0020/LEON-client.git"
+    "url": "git+https://github.com/Ronak0020/leon.git"
   },
   "bugs": {
-    "url": "https://github.com/Ronak0020/LEON-client/issues"
+    "url": "https://github.com/Ronak0020/leon/issues"
   },
-  "homepage": "https://github.com/Ronak0020/LEON-client"
+  "homepage": "https://github.com/Ronak0020/leon"
 }
