@@ -39,7 +39,7 @@ if (config.welcome.enabled) {
         logger.error("Unable to add user to role: " + config.welcome.add_role.role);
       }
     }
-        const channel = member.guild.channels.find(ch => ch.name === 'general');
+        const channel = member.guild.channels.find(ch => ch.name === 'talk-shit');
 	if(!channel) return;
   	channel.send(welcometxt);
   });

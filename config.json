@@ -1,18 +1,19 @@
 {
   "token": "NO-Token-To-Show",
-  "client_id": "637611014300368896",
+  "client_id": "645201676877430813",
   "youtube_api_key": "AIzaSyBmJU3L-CnuIZImSJSBosDyvy_3nblsW9U",
   "prefix": ".",
-  "game": "Ron the King!",
+  "game": "LEON",
 
 
   "admins": {
-    "625877119989186570": "Ronak0020"
+    "625877119989186570": "Ronak0020",
+    "563089940586692658": "LEON"
   },
 
   "welcome": {
       "enabled": true,
-      "message": ":tada: Welcome ***{user}*** to ***{server}*** :tada:",
+      "message": ":tada: Welcome ***{user}*** to ***{server}*** :tada: \nWe hope you will enjoy your stay! :smile:",
       "add_role": {
         "enabled": false,
         "role": "default"
