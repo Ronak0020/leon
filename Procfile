@@ -1,2 +1,2 @@
-npm: npm audit fix --force
+npm: npm audit fix
 worker: node bot.js --harmony
