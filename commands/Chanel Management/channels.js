@@ -14,7 +14,7 @@ exports.create = {
     if (!checkPermission(msg)) {
       return;
     }
-		msg.guild.createChannel(suffix, { type: 'text' }).then(function(channel) {
+		msg.guild.createChannel(suffix, { 'type': 'text' }).then(function(channel) {
 			msg.channel.send("created text channel " + channel);
 		}).catch(function(error){
 			msg.channel.send("failed to create channel: **" + error + "**");
