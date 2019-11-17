@@ -29,7 +29,7 @@ exports.voice = {
     if (!checkPermission(msg)) {
       return;
     }
-		msg.guild.createChannel(suffix,'voice').then(function(channel) {
+		msg.channel.guild.createChannel(suffix,'voice').then(function(channel) {
 			msg.channel.send("created voice channel " + channel);
 			console.log("created " + channel);
 		}).catch(function(error){
