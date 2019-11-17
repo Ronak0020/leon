@@ -9,7 +9,7 @@ exports.commands = [
 // need to style all commands below
 exports.create = {
 	usage: "<channel name>",
-	description: "creates a new text channel with the given name.",
+	description: "creates a new text channel with the given name!",
 	process: function(bot,msg,suffix) {
     if (!checkPermission(msg)) {
       return;
@@ -24,7 +24,7 @@ exports.create = {
 
 exports.voice = {
 	usage: "<channel name>",
-	description: "creates a new voice channel with the given name.",
+	description: "creates a new voice channel with the given name!",
 	process: function(bot,msg,suffix) {
     if (!checkPermission(msg)) {
       return;
