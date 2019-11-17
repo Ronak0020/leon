@@ -14,7 +14,7 @@ exports.create = {
     if (!checkPermission(msg)) {
       return;
     }
-		msg.guild.createChannel(suffix, { 'type': 'text' }).then(function(channel) {
+		msg.channel.guild.createChannel(suffix, "text").then(function(channel) {
 			msg.channel.send("created text channel " + channel);
 		}).catch(function(error){
 			msg.channel.send("failed to create channel: **" + error + "**");
@@ -29,7 +29,7 @@ exports.voice = {
     if (!checkPermission(msg)) {
       return;
     }
-		msg.channel.guild.createChannel(suffix,'voice').then(function(channel) {
+		msg.channel.guild.createChannel(suffix, "voice").then(function(channel) {
 			msg.channel.send("created voice channel " + channel);
 			console.log("created " + channel);
 		}).catch(function(error){
